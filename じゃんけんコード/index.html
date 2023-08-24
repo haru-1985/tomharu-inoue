@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>じゃんけん</title>
+</head>  
+<body>
+  <form method="post" action="result.php">
+    <label>
+      <input type="radio" name="user_hand" value="R" style="display:none;">
+      <img src="janken_gu.png" alt="グー" width="100" height="100">
+    </label>
+    <label>
+      <input type="radio" name="user_hand" value="S" style="display:none;">
+      <img src="janken_choki.png" alt="チョキ" width="100" height="100">
+    </label>
+    <label>
+      <input type="radio" name="user_hand" value="P" style="display:none;">
+      <img src="janken_pa.png" alt="パー" width="100" height="100">
+    </label>
+    <br><br>
+    <input type="submit" value="勝負">
+  </form>
+</body>
+</html>
